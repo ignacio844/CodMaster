@@ -1,0 +1,40 @@
+{
+  "name": "control-sku",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run lint && npm run typecheck && npm run build",
+    "db:generate": "drizzle-kit generate",
+    "db:push": "node --env-file=.env.local ./node_modules/drizzle-kit/bin.cjs push"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "@vercel/blob": "^2.3.0",
+    "drizzle-orm": "0.45.2",
+    "geist": "^1.7.0",
+    "next": "16.3.3",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "read-excel-file": "^5.8.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "drizzle-kit": "0.31.10",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.3.3",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3"
+  },
+  "type": "module"
+}

@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Control SKU: desarrollo",
+      "type": "npm",
+      "script": "dev",
+      "path": "work/app",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Control SKU: validar",
+      "type": "npm",
+      "script": "check",
+      "path": "work/app",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$eslint-stylish", "$tsc"]
+    }
+  ]
+}
