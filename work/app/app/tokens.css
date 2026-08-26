@@ -1,0 +1,55 @@
+/* Hallmark · redesign: BAMinds Control SKU · genre: modern-minimal
+ * theme: custom (tuned) · anchor hue: cool blue (derived from brand navy #123d5a)
+ * paper: light · display: grotesk-sans (Geist, preserved) · accent: cool
+ */
+
+:root {
+  /* Paper + ink */
+  --color-paper: oklch(98.4% 0.003 255);
+  --color-paper-2: oklch(96.3% 0.005 255);
+  --color-paper-3: oklch(93.5% 0.007 255);
+  --color-ink: oklch(21% 0.02 255);
+  --color-ink-muted: oklch(48% 0.02 255);
+  --color-ink-faint: oklch(64% 0.014 255);
+  --color-border: oklch(89% 0.007 255);
+  --color-border-strong: oklch(80% 0.01 255);
+
+  /* Accent — cool blue, tuned from the brand navy */
+  --color-accent: oklch(42% 0.14 262);
+  --color-accent-strong: oklch(33% 0.13 262);
+  --color-accent-soft: oklch(93% 0.03 262);
+  --color-accent-ink: oklch(30% 0.1 262);
+
+  /* Secondary — brand teal, kept as a quiet second voice */
+  --color-teal: oklch(54% 0.07 195);
+  --color-teal-soft: oklch(93% 0.02 195);
+
+  /* Semantic */
+  --color-success: oklch(52% 0.13 155);
+  --color-success-soft: oklch(94% 0.04 155);
+  --color-warning: oklch(58% 0.14 75);
+  --color-warning-soft: oklch(94% 0.05 85);
+  --color-danger: oklch(52% 0.17 25);
+  --color-danger-soft: oklch(94% 0.04 20);
+
+  --color-focus: var(--color-accent);
+
+  /* Type */
+  --font-display: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, 'SF Mono', monospace;
+
+  /* Spacing — 4pt scale */
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
+  --space-5: 20px; --space-6: 24px; --space-8: 32px; --space-10: 40px; --space-12: 48px;
+
+  /* Radius */
+  --radius-sm: 8px; --radius-md: 12px; --radius-lg: 18px; --radius-full: 999px;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 120ms;
+  --dur-base: 180ms;
+}

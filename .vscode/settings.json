@@ -1,0 +1,19 @@
+{
+  "eslint.workingDirectories": [
+    {
+      "directory": "work/app",
+      "changeProcessCWD": true
+    }
+  ],
+  "typescript.tsdk": "work/app/node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "files.exclude": {
+    "outputs": true,
+    "work/*.tar.gz": true
+  },
+  "search.exclude": {
+    "**/.next": true,
+    "**/node_modules": true,
+    "outputs": true
+  }
+}
