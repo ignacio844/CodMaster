@@ -18,18 +18,18 @@
   "dependencies": {
     "@neondatabase/serverless": "^1.0.2",
     "@vercel/blob": "^2.3.0",
-    "drizzle-orm": "0.45.2",
+    "drizzle-orm": "0.45.3",
     "geist": "^1.7.0",
-    "next": "16.3.3",
-    "react": "19.2.6",
-    "react-dom": "19.2.6",
-    "read-excel-file": "^5.8.8"
+    "next": "16.3.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "read-excel-file": "^9.3.10"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "4.2.1",
     "@types/node": "22.19.19",
-    "@types/react": "19.2.14",
-    "@types/react-dom": "19.2.3",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
     "drizzle-kit": "0.31.10",
     "eslint": "9.39.4",
     "eslint-config-next": "16.3.3",
